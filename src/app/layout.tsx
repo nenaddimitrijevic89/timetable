@@ -3,8 +3,8 @@ import './globals.css'
 import { Header } from '../components/Header'
 
 export const metadata: Metadata = {
-  title: 'Categories',
-  description: 'A collection of categories',
+  title: 'Timetable',
+  description: 'A collection of timetables',
 }
 
 export default function RootLayout({
