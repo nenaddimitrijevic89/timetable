@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@font-face {
+  font-family: 'Helvetica-Extended';
+  src:
+    url('/fonts/Helvetica-Neue-Extended.woff2') format('woff2'),
+    url('/fonts/Helvetica-Neue-Extended.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Helvetica-Extended', sans-serif;
+}
